@@ -1,0 +1,77 @@
+@media (max-width: 980px) {
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .site-nav {
+    background: rgba(15, 23, 42, 0.98);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: none;
+    flex-direction: column;
+    inset: 76px 0 auto 0;
+    padding: 1rem;
+    position: fixed;
+  }
+
+  .site-nav.is-open {
+    display: flex;
+  }
+
+  .site-nav a {
+    width: min(100%, 460px);
+  }
+
+  .header-actions .btn--outline {
+    display: none;
+  }
+
+  .trust-row,
+  .card-grid,
+  .value-grid,
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service-detail {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .brand__tagline {
+    display: none;
+  }
+
+  .hero__content {
+    min-height: auto;
+  }
+
+  .hero__media::after {
+    background: linear-gradient(180deg, rgba(2, 6, 23, 0.92), rgba(15, 23, 42, 0.75));
+  }
+
+  .trust-row,
+  .card-grid,
+  .value-grid,
+  .contact-grid,
+  .social-grid,
+  .legal-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .slider__slide img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .hero__actions .btn,
+  .cta-actions .btn,
+  .detail-actions .btn {
+    width: 100%;
+  }
+
+  .whatsapp-float {
+    inset: auto 0.8rem 0.8rem 0.8rem;
+    justify-content: center;
+  }
+}

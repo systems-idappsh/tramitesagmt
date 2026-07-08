@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Como contacto a SAGMT?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Puedes contactar por WhatsApp, llamada o correo oficial."}
+    },
+    {
+      "@type": "Question",
+      "name": "El mapa es definitivo?",
+      "acceptedAnswer": {"@type": "Answer", "text": "No. Mexico es una ubicacion temporal de prueba."}
+    }
+  ]
+}

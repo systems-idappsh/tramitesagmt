@@ -1,0 +1,149 @@
+.site-header {
+  backdrop-filter: blur(18px);
+  background: rgba(15, 23, 42, 0.94);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--color-text-inverse);
+  inset: 0 0 auto 0;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-inner {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  min-height: 76px;
+}
+
+.brand {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.8rem;
+  min-width: 0;
+}
+
+.brand__logo {
+  height: 52px;
+  width: 52px;
+}
+
+.brand__text {
+  display: grid;
+  line-height: 1.1;
+}
+
+.brand__name {
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+.brand__tagline {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.site-nav {
+  align-items: center;
+  display: flex;
+  gap: 0.35rem;
+}
+
+.site-nav a {
+  border-radius: 999px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.92rem;
+  font-weight: 750;
+  padding: 0.65rem 0.9rem;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  background: rgba(245, 158, 11, 0.16);
+  color: #fff5d6;
+}
+
+.header-actions {
+  align-items: center;
+  display: flex;
+  gap: 0.65rem;
+}
+
+.nav-toggle {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-inverse);
+  display: none;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.nav-toggle__bar,
+.nav-toggle__bar::before,
+.nav-toggle__bar::after {
+  background: currentColor;
+  border-radius: 999px;
+  content: "";
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 20px;
+}
+
+.nav-toggle__bar::before {
+  position: absolute;
+  top: -6px;
+}
+
+.nav-toggle__bar::after {
+  position: absolute;
+  top: 6px;
+}
+
+.main-content {
+  min-height: 70vh;
+}
+
+.site-footer {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.footer-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.2fr 0.8fr 0.8fr;
+  padding-block: clamp(2.5rem, 5vw, 4rem);
+}
+
+.footer-title {
+  font-size: 1rem;
+  font-weight: 850;
+  margin: 0 0 0.8rem;
+}
+
+.footer-links {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.footer-links a:hover {
+  color: #fff5d6;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 0.9rem;
+  padding-block: 1rem;
+}

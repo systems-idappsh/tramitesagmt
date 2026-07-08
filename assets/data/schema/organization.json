@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SAGMT",
+  "url": "https://dominio.com/",
+  "email": "tramitesagmt@gmail.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+51 977 786 260",
+    "contactType": "customer service",
+    "areaServed": ["PE", "MX", "US"],
+    "availableLanguage": ["Spanish"]
+  },
+  "sameAs": [
+    "https://www.facebook.com/tramitesagmt",
+    "https://www.instagram.com/tramitesagmt/",
+    "https://x.com/tramitesagmt"
+  ]
+}

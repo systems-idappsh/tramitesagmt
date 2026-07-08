@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Servicios SAGMT",
+  "itemListElement": [
+    {"@type": "Service", "name": "Visas"},
+    {"@type": "Service", "name": "Pasaportes"},
+    {"@type": "Service", "name": "Tramites en Mexico"},
+    {"@type": "Service", "name": "Tramites en Peru"},
+    {"@type": "Service", "name": "Tramites en Venezuela"},
+    {"@type": "Service", "name": "Canada"},
+    {"@type": "Service", "name": "Otros tramites"}
+  ]
+}
